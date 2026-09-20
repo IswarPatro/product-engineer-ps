@@ -1,0 +1,35 @@
+{
+  "name": "resumable-realtime-conversation",
+  "version": "1.0.0",
+  "private": true,
+  "type": "module",
+  "description": "Problem 1: resumable realtime conversation (SSE + SQLite event log + React client)",
+  "engines": {
+    "node": ">=22.13"
+  },
+  "scripts": {
+    "dev": "concurrently -n server,client -c blue,green \"npm:dev:server\" \"npm:dev:client\"",
+    "dev:server": "tsx watch src/server/main.ts",
+    "dev:client": "vite --config vite.config.ts",
+    "start": "tsx src/server/main.ts",
+    "build": "vite build --config vite.config.ts",
+    "test": "vitest run",
+    "typecheck": "tsc --noEmit",
+    "benchmark": "tsx scripts/benchmark.ts"
+  },
+  "dependencies": {
+    "react": "^19.3.0",
+    "react-dom": "^19.3.0"
+  },
+  "devDependencies": {
+    "@types/node": "^22.20.4",
+    "@types/react": "^19.3.0",
+    "@types/react-dom": "^19.3.0",
+    "@vitejs/plugin-react": "^6.1.1",
+    "concurrently": "^10.0.5",
+    "tsx": "^4.23.13",
+    "typescript": "^7.0.2",
+    "vite": "^8.3.0",
+    "vitest": "^5.0.1"
+  }
+}
