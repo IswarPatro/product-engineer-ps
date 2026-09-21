@@ -2,11 +2,11 @@
 
 ## Candidate
 
-- **Name:** TODO
-- **Email:** TODO
-- **GitHub:** TODO
+- **Name:** Iswar Patro
+- **Email:** iswarpatro11@gmail.com
+- **GitHub:** https://github.com/IswarPatro
 - **Selected problem:** Problem 1 — Resumable realtime conversation
-- **Demo video:** TODO (paste an accessible Loom / YouTube / Drive link here)
+- **Demo video:** https://drive.google.com/file/d/1Zjw6576p2t2ogQOeR9wQbyWwnmBWHRZm/view?usp=sharing
 
 ## Run the project
 
